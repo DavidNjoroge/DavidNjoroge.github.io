@@ -1,10 +1,22 @@
 h1{
   text-align: center;
 }
+.container{
+background-color: skyblue;
+}
 .pull-left{
   margin:auto;
     margin-top: 1px;
 }
 .footer h2{
+  text-align: center;
+}
+html{
+background: skyblue;
+}
+.panel{
+  background-color: green;
+}
+.jumbotron p{
   text-align: center;
 }
