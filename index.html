@@ -3,65 +3,102 @@
 
 <head>
   <meta charset="utf-8">
-  <title>David Mwangi</title>
-  <link rel="stylesheet" href="css/styles2.css">
+  <title>Sample Bootstrap</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
 </head>
 
-<body id="top">
-  <nav class="nav fixed">
+<body>
+  <!-- navbar -->
+  <nav>
     <div class="container">
-      <a href="#top">David</a>
-      <div class="collapse navbar-collapse">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-      </div>
+      <ul class="nav justify-content-end nav-pills flex-column flex-sm-row">
+
+        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+
+      </ul>
     </div>
   </nav>
-  <header class="header">
+  <!-- navbar ends -->
+
+  <!-- header -->
+  <header>
     <div class="container">
-      <h1>boom</h1>
+      <div class="centr">
+        <img src="images/portfolio-pic.jpg" class="img-thumbnail mx-auto d-block" alt="Responsive image">
+        <h3>David Mwangi</h3>
+        <h3>FullStack Developer</h3>
+      </div>
     </div>
   </header>
+  <!-- header ends -->
 
-  <section class="portfolio">
+  <!-- portfolio -->
+
+  <div class="portfolio" id="portfolio">
     <div class="container">
-      <h1>blah blah blah </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>PORTFOLIO</h2>
+      <div class="card-deck">
+        <div class="card">
+          <h4>kalisoft</h4>
+          <a class="a" href="#">github</a>
+          <a class="a" href="#">Deploid site</a>
+          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
+
+        </div>
+        <div class="card">
+          <h4>kalisoft</h4>
+          <a class="a" href="#">github</a>
+          <a class="a" href="#">Deploid site</a>
+          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
+
+          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
+        </div>
+        <div class="card">
+          <h4>kalisoft</h4>
+          <a class="a" href="#">github</a>
+          <a class="a" href="#">Deploid site</a>
+          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
+
+        </div>
+        <div class="card">
+          <h4>kalisoft</h4>
+          <a class="a" href="#">github</a>
+          <a class="a" href="#">Deploid site</a>
+          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
+
+        </div>
+      </div>
     </div>
-  </section>
-  <section class="about">
+  </div>
+
+  <!-- portfolio ends -->
+
+  <!-- about -->
+
+  <div id="about">
     <div class="container">
-
+      <h2 class="clr">ABOUT</h2>
+      <div class="row">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do veniam, quis nostrud exercitation ullamco ls aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+      </div>
     </div>
-  </section>
-  <section class="about">
-    <div class="container">
+  </div>
 
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="containe">
-
-    </div>
-  </footer>
+  <!-- about ends -->
 
 
-  <script src="js/jquery-3.2.1.js"></script>
-  <script src="js/scripts.js"></script>
+
+
+
+  <script src="js/jquery-3.2.1.js">
+  </script>
+  <script src="js/scripts.js">
+  </script>
 </body>
 
 </html>

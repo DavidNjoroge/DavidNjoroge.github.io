@@ -1,22 +1,93 @@
-h1{
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 24px;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+
+/*navbar*/
+
+nav {
+  background-color: rgb(40, 103, 103);
+}
+
+
+/*navbar ends*/
+
+
+/*header*/
+
+header {
+  background-color: rgb(172, 67, 67);
+}
+
+img {
+  width: 190px;
+}
+
+.centr {
+  padding: 50px;
   text-align: center;
 }
-.container{
-background-color: skyblue;
+
+h3 {
+  padding: 20px;
 }
-.pull-left{
-  margin:auto;
-    margin-top: 1px;
+
+
+/*header ends*/
+
+
+/*portfolio*/
+
+.portfolio {
+  color: black;
 }
-.footer h2{
+
+h2 {
+  padding: 30px;
   text-align: center;
 }
-html{
-background: skyblue;
-}
-.panel{
-  background-color: green;
-}
-.jumbotron p{
+
+h4 {
   text-align: center;
 }
+
+.a {
+  font-size: 14px;
+  color: black;
+}
+
+.portfolio {
+  font-size: 14px;
+}
+
+.card {
+  margin: 30px;
+  padding: 20px;
+}
+
+
+/*portfolio ends*/
+
+
+/*about*/
+
+#about {
+  background-color: rgb(172, 67, 67)
+}
+
+.clr {
+  color: white;
+}
+
+.row {
+  padding: 30px;
+}
+
+
+/*about ends*/
