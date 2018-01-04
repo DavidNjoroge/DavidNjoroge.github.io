@@ -13,6 +13,7 @@ a {
 
 nav {
   background-color: rgb(40, 103, 103);
+  font-size: 14px;
 }
 
 
@@ -22,22 +23,24 @@ nav {
 /*header*/
 
 header {
-  background-color: rgb(172, 67, 67);
+  background-image: url('../images/wide.jpg');
+  background-size: cover;
+  height: 100vh;
 }
-
-img {
-  width: 190px;
+header .statement{
+  /* -webkit-filter: blur(2px);
+  filter: blur(2px); */
+  width: 30vw;
+  margin: auto;
+  padding-top: 40vh;
+  font-weight: bold;
+  
 }
 
 .centr {
   padding: 50px;
   text-align: center;
 }
-
-h3 {
-  padding: 20px;
-}
-
 
 /*header ends*/
 
@@ -46,9 +49,10 @@ h3 {
 
 .portfolio {
   color: black;
+  /* min-height: 100vh; */
 }
 
-h2 {
+#portfolio h2 {
   padding: 30px;
   text-align: center;
 }
@@ -61,26 +65,69 @@ h4 {
   font-size: 14px;
   color: black;
 }
-
+.projects {
+  border: solid grey;
+  border-width: 2px;  
+  border-radius: 5px;
+  padding: 10px;
+}
+.projects img {
+  height: 250px;
+}
 .portfolio {
   font-size: 14px;
 }
 
-.card {
-  margin: 30px;
-  padding: 20px;
+.words{
+  padding-left: 50px;
 }
-
-
+.words a {
+  color: black;
+}
+.words p {
+  font-size: 12px;
+}
+.words ul {
+  list-style: none;
+  padding: 0;
+}
+.words ul li {
+  display: inline;
+  background-color: rgb(40, 103, 103);
+  color: white;  
+  padding: 5px;
+  font-size: 12px;
+  border-radius: 5px;  
+  
+}
 /*portfolio ends*/
 
 
 /*about*/
 
 #about {
-  background-color: rgb(172, 67, 67)
+  /* background-color: rgb(172, 67, 67); */
+  /* background-color: rgb(40, 103, 103); */
+  /* padding-bottom: 50px; */
+  /* min-height: 100vh; */
+  color: black;
 }
-
+#about h3 {
+  text-align: center;
+  padding: 10px;
+}
+#about p {
+  font-size: 16px !important;
+  
+}
+.topic{
+  padding-bottom: 50px;
+}
+.clr {
+  background-color: rgb(40, 103, 103);
+  padding: 1px;
+  text-align: center;
+}
 .clr {
   color: white;
 }
@@ -88,6 +135,32 @@ h4 {
 .row {
   padding: 30px;
 }
+.table{
+  font-size: 14px;
+}
+.tech img{
+  /* height: 10vh; */
+  height: 50px;
 
+}
 
 /*about ends*/
+
+/* footer */
+footer{
+  background-color: rgb(40, 103, 103);  
+  color: white;
+  text-align: center;
+  font-size: 18px;
+
+}
+footer ul {
+  list-style: none;
+}
+footer ul li {
+  margin: auto;
+}
+.logos{
+  margin: auto;
+}
+/* footer ends */

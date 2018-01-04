@@ -7,96 +7,186 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
   <!-- navbar -->
-  <nav>
+  <nav class="navbar navbar-fixed-top">
     <div class="container">
-      <ul class="nav justify-content-end nav-pills flex-column flex-sm-row">
-
+      <ul class="nav navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#header">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about">Skills</a></li>
         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-
       </ul>
     </div>
   </nav>
   <!-- navbar ends -->
 
   <!-- header -->
-  <header>
+  <header id="header">
     <div class="container">
       <div class="centr">
-        <img src="images/portfolio-pic.jpg" class="img-thumbnail mx-auto d-block" alt="Responsive image">
-        <h3>David Mwangi</h3>
-        <h3>FullStack Developer</h3>
+        <div class="statement">
+          <p class="tlt">Hi, I'm David. A full-stack Web developer experienced in Django & nodejs</p>
+        </div>
       </div>
     </div>
   </header>
   <!-- header ends -->
 
   <!-- portfolio -->
-
   <div class="portfolio" id="portfolio">
     <div class="container">
       <h2>PORTFOLIO</h2>
-      <div class="card-deck">
-        <div class="card">
-          <h4>kalisoft</h4>
-          <a class="a" href="#">github</a>
-          <a class="a" href="#">Deploid site</a>
-          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
-
+      <hr>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="projects">
+            <img src="images/projects.png" alt="" class="img-responsive">
+            <div class="words">
+              <a href=""> <h3><strong>MS Projects</strong></h3></a>
+              <p>A football application that shows football results, league standings and game fixtures.</p>
+              <ul>
+                <li>Flask</li>
+                <li>REST Api</li>
+                <li>Postgresql</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="card">
-          <h4>kalisoft</h4>
-          <a class="a" href="#">github</a>
-          <a class="a" href="#">Deploid site</a>
-          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
-
-          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
+        <div class="col-md-4">
+          <div class="projects">
+            <img src="images/map.svg" alt="" class="img-responsive">
+            <div class="words">
+              <a href=""> <h3><strong>Easy Shop</strong></h3></a>
+              <p>A football application that shows football results, league standings and game fixtures.</p>
+              <ul>
+                <li>Flask</li>
+                <li>REST Api</li>
+                <li>Postgresql</li>
+                <li>Bootstrap</li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="card">
-          <h4>kalisoft</h4>
-          <a class="a" href="#">github</a>
-          <a class="a" href="#">Deploid site</a>
-          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
-
-        </div>
-        <div class="card">
-          <h4>kalisoft</h4>
-          <a class="a" href="#">github</a>
-          <a class="a" href="#">Deploid site</a>
-          <p>Lorem ipsum dolor sit amet, qui eu liberavisse suscipiantur. Aeterno insolens ut mei, has iudico</p>
-
+      <!-- </div> -->
+      <!-- <div class="row"> -->
+        <div class="col-md-4">
+            <div class="projects">
+                <a href=""> <img src="images/epl.webp" alt="" class="img-responsive"></a>
+          <div class="words">
+           <h3><strong>GameTime</strong></h3>
+            <p>A football application that shows football results, league standings and game fixtures.</p>
+            <ul>
+              <li>Flask</li>
+              <li>REST Api</li>
+              <li>Postgresql</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
         </div>
       </div>
+      
+      </div>
+      <hr>
     </div>
   </div>
-
   <!-- portfolio ends -->
 
   <!-- about -->
-
   <div id="about">
+    <div class="topic">
+    </div>
+      <div class="clr">
+        <h2>Skills</h2>
+      </div>
     <div class="container">
-      <h2 class="clr">ABOUT</h2>
-      <div class="row">
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do veniam, quis nostrud exercitation ullamco ls aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-        </p>
+      <div class="col-md-6 ">
+          <h3>Web Design</h3>
+          <!-- <p>Using modern Web design frameworks and libraries,I create beautiful immersive responsive websites </p> -->
+          <p>On top of HTML5 and CSS3, I am skilled in front end frameworks and libraries like nodejs, angular, jquery, bootstrap and css-grid to make immersive beautiful responsive websites</p>
+      </div>
+      <div class="col-md-6">
+        <h3>Web Development and Full-Stack</h3>
+        <p>Highly skilled in python frameworks like flask and Django with sql databases like postgreSQL and sqlite to create web applications and REST apis</p>
       </div>
     </div>
+    <div class="container tech">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="images/html.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-2">
+          <img src="images/css.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-2">
+          <img src="images/django.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-2">
+          <img src="images/node.jpg" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-2">
+          <img src="images/flask.png" alt="" class="img-responsive">
+        </div>
+        <div class="col-md-2">
+          <img src="images/postgres.png" alt="" class="img-responsive">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <h2>Contact</h2>
+        <div class="row logos">
+          <div class="col-md-6">
+            <!-- <h4><strong>Contact</strong></h4> -->
+            <ul>
+              <li> <i class="fa fa-mobile" aria-hidden="true"></i>  +254 726609646</li>
+              <li> <i class="fa fa-envelope" aria-hidden="true"></i> njorogedavid13@gmail.com</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <!-- <h4><strong>Social</strong></h4> -->
+            <ul>
+              <li><i class="fa fa-github" aria-hidden="true"></i> <a href="">github</a></li>
+              <li><i class="fa fa-linkedin-square" aria-hidden="true"></i> <a href="http://">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
   </div>
-
   <!-- about ends -->
 
+  <!-- footer -->
+  <!-- <footer>
+    <div class="row logos">
+      <div class="col-md-4">
+        
+      </div>
+      <div class="col-md-4">
+      <a href=""><i class="fa fa-envelope" aria-hidden="true"></i></a> 
+      <a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> 
+      <a href=""><i class="fa fa-github" aria-hidden="true"></i></a> 
+      
+        <h4><strong>Contact</strong></h4>
+        <ul>
+          <li>+254 726609646</li>
+          
+          <li> <i class="fa fa-envelope" aria-hidden="true"> njorogedavid13@gmail.com</li>
+        </ul>
+      </div>
+    </div>
+  </footer> -->
+<!-- footer ends -->
 
 
-
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/1.2.0/trianglify.min.js"></script>
   <script src="js/jquery-3.2.1.js">
   </script>
+  <script src="js/jquery.lettering-0.6.min.js"></script>
+  <script src="js/jquery.textillate.js"></script>
   <script src="js/scripts.js">
   </script>
 </body>
