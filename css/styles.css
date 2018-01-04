@@ -77,7 +77,11 @@ h4 {
 .portfolio {
   font-size: 14px;
 }
-
+.git{
+  width: 25px !important;
+  height: 25px !important;
+  margin: 10px;
+}
 .words{
   padding-left: 50px;
 }
