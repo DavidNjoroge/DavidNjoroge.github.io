@@ -168,3 +168,9 @@ footer ul li {
   margin: auto;
 }
 /* footer ends */
+
+@media (min-width:768){
+  .projects{
+    margin: 20px;
+  }
+}
