@@ -13,7 +13,7 @@ a {
 
 nav {
   background-color: rgb(40, 103, 103);
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 
 
@@ -71,12 +71,18 @@ h4 {
   border-radius: 5px;
   padding: 10px;
   cursor: pointer;
+  margin-top: 20px;
 }
 .projects img {
   height: 250px;
+  margin: auto;
 }
 .portfolio {
-  font-size: 14px;
+  font-size: 20px;
+}
+p{
+  font-size: 22px !important ;
+  
 }
 .git{
   width: 25px !important;
@@ -84,13 +90,14 @@ h4 {
   margin: 10px;
 }
 .words{
-  padding-left: 50px;
+  /* padding-left: 50px; */
+  text-align: center;
 }
 .words a {
   color: black;
 }
 .words p {
-  font-size: 12px;
+  font-size: 20px !important;
 }
 .words ul {
   list-style: none;
@@ -122,7 +129,7 @@ h4 {
   padding: 10px;
 }
 #about p {
-  font-size: 16px !important;
+  font-size: 20 px !important;
   
 }
 .topic{
@@ -170,11 +177,7 @@ footer ul li {
 }
 /* footer ends */
 
-@media (min-width:768){
-  .projects{
-    margin: 20px;
-  }
-}
+
 
 /* some modals */
 
@@ -244,7 +247,8 @@ footer ul li {
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
-  .modal-content {
-      width: 100%;
+  body {
+      color: pink !important;
   }
 }
+
