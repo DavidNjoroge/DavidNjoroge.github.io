@@ -25,13 +25,30 @@ nav {
 header {
   /* display: grid;
   grid-template-columns: 50% 50%; */
-  height: 100vh;
-  background-image: url('../images/wide.jpg');
+  min-height: 100vh;
+  color: black;
+  margin-top: 60px;
+}
+header .containe{
+  background-image: url('../images/portrait.JPG');
   background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  
+  
 }
-header .container{
+header .row{
+  padding: 0 !important;
+}
 
+.hi{
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  
 }
+
 header .statement{
   /* -webkit-filter: blur(2px);
   filter: blur(2px); */
@@ -42,10 +59,10 @@ header .statement{
   
 }
 
-.centr {
+/* .centr {
   padding: 50px;
   text-align: center;
-}
+} */
 
 /*header ends*/
 
