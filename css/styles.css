@@ -23,9 +23,14 @@ nav {
 /*header*/
 
 header {
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
+  height: 100vh;
   background-image: url('../images/wide.jpg');
   background-size: cover;
-  height: 100vh;
+}
+header .container{
+
 }
 header .statement{
   /* -webkit-filter: blur(2px);
@@ -251,4 +256,9 @@ footer ul li {
       color: pink !important;
   }
 }
-
+.modal-footer{
+  text-align: center;
+}
+.modal-footer a{
+  color: black;
+}
